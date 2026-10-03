@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+
+<html class="dark" dir="rtl" lang="fa"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;700&amp;family=Space+Grotesk:wght@700&amp;family=Vazirmatn:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;font-family:'Vazirmatn','Plus Jakarta Sans',sans-serif;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-surface": "#dde2f8", "surface-container-highest": "#2f3445", "tertiary-fixed-dim": "#ffb3ad", "on-secondary-fixed": "#001e2c", "on-background": "#dde2f8", "inverse-primary": "#006d35", "primary": "#75ff9e", "surface-variant": "#2f3445", "outline-variant": "#3b4a3d", "on-error": "#690005", "secondary-fixed-dim": "#7bd0ff", "on-tertiary-fixed-variant": "#930013", "error": "#ffb4ab", "surface-container": "#191f2f", "surface-tint": "#00e475", "secondary-fixed": "#c4e7ff", "surface-container-lowest": "#080e1d", "outline": "#859585", "tertiary-container": "#ffb6b0", "on-primary-container": "#00612e", "on-secondary": "#00354a", "on-primary": "#003918", "surface-container-high": "#242a3a", "on-secondary-fixed-variant": "#004c69", "surface-bright": "#33394a", "surface": "#0d1322", "surface-dim": "#0d1322", "on-primary-fixed-variant": "#005226", "background": "#0d1322", "on-secondary-container": "#00374d", "tertiary": "#ffdcd9", "primary-container": "#00e676", "on-primary-fixed": "#00210b", "secondary": "#7bd0ff", "secondary-container": "#00a6e0", "on-surface-variant": "#bacbb9", "inverse-surface": "#dde2f8", "on-tertiary-fixed": "#410004", "error-container": "#93000a", "primary-fixed": "#62ff96", "on-error-container": "#ffdad6", "inverse-on-surface": "#2a3040", "primary-fixed-dim": "#00e475", "surface-container-low": "#151b2b", "on-tertiary": "#68000a", "on-tertiary-container": "#aa091b", "tertiary-fixed": "#ffdad7" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-sm": "0.5rem", "margin-lg": "2.5rem", "gutter": "1rem", "space-xl": "2rem", "space-md": "0.75rem", "space-xs": "0.25rem", "margin": "1rem", "gutter-lg": "1.5rem", "margin-md": "1.5rem", "space-lg": "1.25rem" }, "fontFamily": { "body-sm": ["Plus Jakarta Sans"], "headline-lg": ["Outfit"], "headline-lg-mobile": ["Outfit"], "label-numeric-lg": ["Space Grotesk"], "label-caps": ["Space Grotesk"], "headline-md": ["Outfit"], "body-md": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Outfit"], "body-lg": ["Plus Jakarta Sans"], "headline-xl": ["Outfit"], "label-numeric-md": ["Space Grotesk"], "label-badge": ["Plus Jakarta Sans"], "headline-sm": ["Outfit"] }, "fontSize": { "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "700" }], "label-numeric-lg": ["36px", { "lineHeight": "38px", "letterSpacing": "-0.03em", "fontWeight": "700" }], "label-caps": ["11px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "700" }], "headline-md": ["22px", { "lineHeight": "30px", "fontWeight": "700" }], "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }], "headline-xl-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "800" }], "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "500" }], "headline-xl": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "label-numeric-md": ["20px", { "lineHeight": "24px", "fontWeight": "700" }], "label-badge": ["11px", { "lineHeight": "14px", "fontWeight": "700" }], "headline-sm": ["18px", { "lineHeight": "26px", "fontWeight": "600" }] } } } }</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface antialiased select-none"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_1px_12px_rgba(0,0,0,0.35)]"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="Brand logo. - Primary color: #00e676
+- Font: outfit
+- Mode: dark
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U8iWjU_n-pETbqEiDCvGqHkKLxaX-bnPhbs3rYndqaqH7vpB-DQMoQb0PeiW6JxG5U3udD8sf5AlZlHLVpISkP-3eRmy3auSw1ZS4XNm8l4e5lXeJRy4wVzmHZpzXKhzK0t9v5gu9Vb7u546IjoHhsJBETPd-91pifzvNDCvBXb-6Yi6YOsd3AbpA5KjYyEGkMB5HuSRx3S3QOY01mcMAiuTNE8bj3eYkjMCOVwrI3T-adWqcLysuU1Bo"/><div class="flex flex-col min-w-0"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm font-bold text-on-surface truncate">پارس‌اسپورت</span><span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full bg-primary-container/20 text-primary font-label-badge text-label-badge font-bold tracking-tight"><span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse shadow-[0_0_8px_rgba(0,230,118,0.7)]"></span><span>زنده</span></span></div><span class="font-body-sm text-body-sm text-on-surface-variant truncate">Match Center</span></div></div><div class="flex items-center gap-space-xs"><button class="w-11 h-11 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors active:scale-95"><span class="material-symbols-outlined text-[22px]">search</span></button><button class="w-11 h-11 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors relative active:scale-95"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-primary ring-2 ring-surface"></span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-[0_0_10px_rgba(117,255,158,0.35)]"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-28 bg-surface min-h-screen"><div class="flex flex-col w-full text-on-surface select-none pb-12" dir="rtl">
+<!-- Live Match Score Header & Stadium Stage -->
+<div class="relative w-full overflow-hidden bg-surface-container-low px-margin pt-space-lg pb-space-lg shadow-md">
+<!-- Subtle Ambient Floodlight Glow -->
+<div class="absolute -top-12 -right-12 w-48 h-48 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-10 -left-10 w-44 h-44 bg-secondary/10 rounded-full blur-3xl pointer-events-none"></div>
+<!-- Match Status & Meta -->
+<div class="relative z-10 flex items-center justify-between gap-space-sm mb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-primary/15 text-primary">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+<span class="font-label-caps text-label-caps tracking-wider font-bold">دقیقه ۷۸' زنده</span>
+</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm hidden xs:inline">•</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm truncate">ال‌کلاسیکو • لالیگا</span>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant font-body-sm text-body-sm bg-surface-container/60 px-2 py-1 rounded-lg">
+<span class="material-symbols-outlined text-[16px] text-primary">stadium</span>
+<span class="truncate max-w-[130px]">سانتیاگو برنابئو</span>
+</div>
+</div>
+<!-- Teams Score Board -->
+<div class="relative z-10 grid grid-cols-7 items-center justify-items-center py-space-sm">
+<!-- Home: Real Madrid -->
+<div class="col-span-3 flex flex-col items-center text-center w-full">
+<div class="relative mb-space-xs">
+<div class="w-14 h-14 rounded-xl bg-surface-container-high flex items-center justify-center p-1.5 shadow-sm">
+<img class="w-full h-full object-contain" data-alt="Official club crest badge of Real Madrid CF in rich white, royal blue, and gold tones on glossy midnight metallic background, clean sports icon style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZ15YKLShu7YCexjx3DUILwzOxUoO8dvF9qRF0Kd9loex6qPLq47zIdcVFe6t-lL3kBRkk0zzRL1a_vGMFUBFrC_Uz3akbVyQM13N38hJMDynGAnnJ3qdQ0mct-d528pcsFAw8OSVKYXMhMTvUKyadKkevs7MCta-qkQtY9U6W1yLR2d2s5a9Ys0d-UPa2IESl4oCljstFBg_eC9GS4Kweavad2Kii5lzD0Z6XXr3hvQsAFY9VI4WF"/>
+</div>
+<span class="absolute -bottom-1 -right-1 bg-surface-container-highest text-primary font-label-badge text-label-badge px-1.5 py-0.2 rounded-full">میزبان</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold leading-tight truncate w-full">رئال مادرید</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm mt-0.5">کارلو آنچلوتی</span>
+</div>
+<!-- Center Score -->
+<div class="col-span-1 flex flex-col items-center justify-center">
+<div class="flex items-center gap-1.5 bg-surface-container-highest/90 px-3 py-1.5 rounded-xl shadow-lg">
+<span class="font-label-numeric-lg text-label-numeric-lg text-primary font-extrabold leading-none">۲</span>
+<span class="text-outline text-headline-sm font-light leading-none">:</span>
+<span class="font-label-numeric-lg text-label-numeric-lg text-on-surface font-extrabold leading-none">۱</span>
+</div>
+<div class="flex items-center gap-1 mt-1 text-error text-[10px] font-bold">
+<span class="inline-block w-1.5 h-1.5 rounded-full bg-error animate-pulse"></span>
+<span>پرتنش</span>
+</div>
+</div>
+<!-- Away: Barcelona -->
+<div class="col-span-3 flex flex-col items-center text-center w-full">
+<div class="relative mb-space-xs">
+<div class="w-14 h-14 rounded-xl bg-surface-container-high flex items-center justify-center p-1.5 shadow-sm">
+<img class="w-full h-full object-contain" data-alt="Official club shield crest of FC Barcelona displaying blaugrana red and blue stripes with Saint George cross on high contrast dark badge." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAo_A2uaV6qgH20k28Un67OLX5LGEuaosAsCKt11rJ0WZEogJnDAJx7-G2e3FNmE-4EGBRzppIIu-Qa7BPPx7kwwfCI_8N-cwvU607CO0VJ5we7aTJ5DQufTbZE-BEdC7t9WDI9kkn1iXI6__7xDnxu5NrovVwKPkC27e7vfUyqz2cY5rTSEiQqzcgcwqoCizTP8vcsb2yK3Bwd42HvrBAEv8lXjnUzft7zfvUJuEQfZ5-GGHa9tyuS"/>
+</div>
+<span class="absolute -bottom-1 -left-1 bg-surface-container-highest text-on-surface-variant font-label-badge text-label-badge px-1.5 py-0.2 rounded-full">مهمان</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold leading-tight truncate w-full">بارسلونا</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm mt-0.5">هانسی فلیک</span>
+</div>
+</div>
+<!-- Scorers Timeline Dropdown Ribbon -->
+<div class="relative z-10 mt-space-md pt-space-sm bg-surface-container/70 rounded-xl p-space-sm flex flex-col gap-1.5 text-body-sm font-body-sm">
+<div class="flex items-start justify-between gap-space-sm text-on-surface-variant">
+<!-- Real Madrid Scorers -->
+<div class="flex flex-col items-start gap-1 flex-1 min-w-0">
+<div class="flex items-center gap-1.5 min-w-0">
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">sports_soccer</span>
+<span class="text-on-surface font-semibold truncate">وینیسیوس جونیور ('۲۲)</span>
+</div>
+<div class="flex items-center gap-1.5 min-w-0">
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">sports_soccer</span>
+<span class="text-on-surface font-semibold truncate">جود بلینگهام ('۶۸)</span>
+</div>
+</div>
+<div class="w-[1px] h-9 bg-surface-container-highest mx-1"></div>
+<!-- Barcelona Scorer -->
+<div class="flex flex-col items-end gap-1 flex-1 min-w-0 text-left">
+<div class="flex items-center gap-1.5 min-w-0">
+<span class="text-on-surface font-semibold truncate">روبرت لواندوفسکی ('۳۴)</span>
+<span class="material-symbols-outlined text-[15px] text-secondary" style="font-variation-settings: 'FILL' 1;">sports_soccer</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Sub Navigation Segment Tabs -->
+<div class="sticky top-16 z-40 bg-surface/90 backdrop-blur-xl px-margin py-space-sm shadow-sm">
+<div class="flex items-center gap-space-xs overflow-x-auto no-scrollbar py-0.5">
+<button class="px-space-md py-1.5 rounded-full bg-primary text-on-primary font-headline-sm text-body-sm font-bold shadow-[0_0_12px_rgba(0,230,118,0.35)] shrink-0 flex items-center gap-1.5 transition-all">
+<span class="material-symbols-outlined text-[16px]">bar_chart</span>
+<span>آمار و ارقام</span>
+</button>
+<button class="px-space-md py-1.5 rounded-full bg-surface-container-high text-on-surface-variant hover:text-on-surface font-body-sm text-body-sm font-medium shrink-0 flex items-center gap-1.5 transition-all">
+<span class="material-symbols-outlined text-[16px]">groups</span>
+<span>ترکیب و نمرات</span>
+</button>
+<button class="px-space-md py-1.5 rounded-full bg-surface-container-high text-on-surface-variant hover:text-on-surface font-body-sm text-body-sm font-medium shrink-0 flex items-center gap-1.5 transition-all">
+<span class="material-symbols-outlined text-[16px]">stream</span>
+<span>رویدادها و گزارش متنی</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+</button>
+<button class="px-space-md py-1.5 rounded-full bg-surface-container-high text-on-surface-variant hover:text-on-surface font-body-sm text-body-sm font-medium shrink-0 flex items-center gap-1.5 transition-all">
+<span class="material-symbols-outlined text-[16px]">history</span>
+<span>تقابل‌ها (H2H)</span>
+</button>
+</div>
+</div>
+<!-- Main Content Body -->
+<div class="flex flex-col gap-space-lg px-margin mt-space-md">
+<!-- Player of the Match Spotlight Banner -->
+<div class="relative w-full rounded-2xl bg-gradient-to-l from-surface-container-high via-surface-container to-surface-container-low p-space-md overflow-hidden shadow-md">
+<!-- Glow decoration -->
+<div class="absolute -right-8 -top-8 w-32 h-32 bg-primary/20 rounded-full blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="relative shrink-0">
+<div class="w-14 h-14 rounded-xl overflow-hidden bg-surface-container-highest shadow-inner">
+<img class="w-full h-full object-cover" data-alt="Dynamic portrait of Jude Bellingham in white jersey celebrating with arms wide open under stadium night lights, dramatic sports photography with energetic athletic rim light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7WJ5WpzobNzjqvdQ3vHDTS59KUW1caBiC41BvgLtujoDdbrim2_QIE7Nk-vDxkMx-pp-PHQ2GD635e7guBR9RGfCE-D4gX4QurW_zqU4eHQoJ17coAAUqluR7EjjQ59Tp-3xAYqgRsqxhRCRgcArSYY6bwupVGwbW25rLB3hfMOpLKUFoWo-2nzkmvLPSAIeyJmbHl9MsDpX08TgxNgE_pZSZytQOGICgVpz4GkRJstnd_fWVg7LC"/>
+</div>
+<span class="absolute -top-1.5 -right-1.5 bg-primary text-on-primary font-label-badge text-label-badge px-1 py-0.5 rounded-md shadow-sm">MVP</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface truncate">جود بلینگهام</span>
+<span class="material-symbols-outlined text-primary text-[18px]" style="font-variation-settings: 'FILL' 1;">stars</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">بهترین بازیکن زمین • رئال مادرید</span>
+<div class="flex items-center gap-2 mt-1">
+<span class="font-body-sm text-[11px] text-primary">۱ گل</span>
+<span class="text-on-surface-variant text-[11px]">•</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">۴ شوت (۳ در چارچوب)</span>
+<span class="text-on-surface-variant text-[11px]">•</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">۸۹٪ پاس سالم</span>
+</div>
+</div>
+</div>
+<!-- Rating Pill -->
+<div class="flex flex-col items-center justify-center shrink-0 bg-primary/20 px-3 py-2 rounded-xl">
+<span class="font-label-caps text-label-caps text-primary text-[10px]">نمره زنده</span>
+<span class="font-label-numeric-md text-label-numeric-md text-primary font-black leading-none mt-0.5">۸.۴</span>
+</div>
+</div>
+</div>
+<!-- Match Momentum (فشار هجومی مسابقه) -->
+<div class="flex flex-col gap-space-sm bg-surface-container-low p-space-md rounded-2xl shadow-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-primary">electric_bolt</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">فشار هجومی زنده (Match Momentum)</h2>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant bg-surface-container px-2 py-0.5 rounded-md">۱' - ۷۸'</span>
+</div>
+<!-- Team Indicators -->
+<div class="flex items-center justify-between text-body-sm font-body-sm px-1">
+<div class="flex items-center gap-1.5 text-primary">
+<span class="w-2.5 h-2.5 rounded-sm bg-primary"></span>
+<span>رئال مادرید (فشار بالا)</span>
+</div>
+<div class="flex items-center gap-1.5 text-secondary">
+<span>بارسلونا</span>
+<span class="w-2.5 h-2.5 rounded-sm bg-secondary"></span>
+</div>
+</div>
+<!-- Responsive Inline SVG Momentum Chart -->
+<div class="w-full bg-surface-container rounded-xl p-space-sm relative overflow-hidden">
+<div class="w-full h-24 flex items-center justify-center relative">
+<!-- Neutral Zero Line -->
+<div class="absolute inset-x-0 top-1/2 h-[1px] bg-surface-container-highest z-0"></div>
+<svg class="w-full h-full relative z-10" fill="none" preserveaspectratio="none" viewbox="0 0 320 90">
+<defs>
+<lineargradient id="madridPressure" x1="0%" x2="0%" y1="0%" y2="100%">
+<stop offset="0%" stop-color="#75ff9e" stop-opacity="0.85"></stop>
+<stop offset="100%" stop-color="#75ff9e" stop-opacity="0.05"></stop>
+</lineargradient>
+<lineargradient id="barcaPressure" x1="0%" x2="0%" y1="0%" y2="100%">
+<stop offset="0%" stop-color="#7bd0ff" stop-opacity="0.1"></stop>
+<stop offset="100%" stop-color="#7bd0ff" stop-opacity="0.85"></stop>
+</lineargradient>
+</defs>
+<!-- Momentum Curve Area Upper (Real Madrid) -->
+<path d="M 0 45 Q 25 15, 50 30 T 90 10 T 130 45 L 130 45 L 0 45 Z" fill="url(#madridPressure)"></path>
+<path d="M 210 45 Q 235 5, 260 12 T 290 8 T 320 20 L 320 45 L 210 45 Z" fill="url(#madridPressure)"></path>
+<!-- Momentum Curve Area Lower (Barcelona) -->
+<path d="M 120 45 Q 145 78, 170 82 T 210 55 L 210 45 L 120 45 Z" fill="url(#barcaPressure)"></path>
+<!-- Dynamic Stroke Line -->
+<path d="M 0 45 Q 25 15, 50 30 T 90 10 T 130 45 Q 150 78, 175 80 T 215 48 Q 240 5, 265 12 T 295 8 T 320 20" stroke="#dde2f8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<!-- Goal Pin 1: Vinicius 22' -->
+<circle cx="85" cy="11" fill="#75ff9e" r="4.5"></circle>
+<circle cx="85" cy="11" opacity="0.6" r="7" stroke="#75ff9e" stroke-width="1.5"></circle>
+<!-- Goal Pin 2: Lewandowski 34' -->
+<circle cx="165" cy="78" fill="#7bd0ff" r="4.5"></circle>
+<circle cx="165" cy="78" opacity="0.6" r="7" stroke="#7bd0ff" stroke-width="1.5"></circle>
+<!-- Goal Pin 3: Bellingham 68' -->
+<circle cx="270" cy="12" fill="#75ff9e" r="4.5"></circle>
+<circle cx="270" cy="12" opacity="0.6" r="7" stroke="#75ff9e" stroke-width="1.5"></circle>
+<!-- Current minute scrubber (78') -->
+<line stroke="#00e676" stroke-dasharray="2 2" stroke-width="1.5" x1="295" x2="295" y1="0" y2="90"></line>
+<circle cx="295" cy="8" fill="#00e676" r="3"></circle>
+</svg>
+</div>
+<div class="flex items-center justify-between text-[11px] font-label-caps text-on-surface-variant px-1 mt-1">
+<span>دقیقه ۱۵'</span>
+<span>۳۰'</span>
+<span>نیمه اول (۴۵')</span>
+<span>۶۰'</span>
+<span class="text-primary font-bold">اکنون (۷۸')</span>
+</div>
+</div>
+</div>
+<!-- Key Match Stats Comparison -->
+<div class="flex flex-col gap-space-sm bg-surface-container-low p-space-md rounded-2xl shadow-sm">
+<div class="flex items-center justify-between mb-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-primary">query_stats</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">آمار کلیدی مسابقه</h2>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">بروزرسانی زنده</span>
+</div>
+<!-- Stats Rows List -->
+<div class="flex flex-col gap-space-md">
+<!-- Stat 1: Ball Possession -->
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="font-label-numeric-md text-label-numeric-md font-bold text-primary">۵۴٪</span>
+<span class="text-on-surface font-medium">مالکیت توپ</span>
+<span class="font-label-numeric-md text-label-numeric-md font-bold text-secondary">۴۶٪</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest flex overflow-hidden p-0.5 gap-0.5">
+<div class="h-full rounded-full bg-primary transition-all duration-500" style="width: 54%;"></div>
+<div class="h-full rounded-full bg-secondary transition-all duration-500" style="width: 46%;"></div>
+</div>
+</div>
+<!-- Stat 2: Expected Goals (xG) -->
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="font-label-numeric-md text-label-numeric-md font-bold text-primary">۱.۸۴</span>
+<span class="text-on-surface font-medium">امید گل (xG)</span>
+<span class="font-label-numeric-md text-label-numeric-md font-bold text-secondary">۱.۱۲</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest flex overflow-hidden p-0.5 gap-0.5">
+<div class="h-full rounded-full bg-primary transition-all duration-500" style="width: 62%;"></div>
+<div class="h-full rounded-full bg-secondary transition-all duration-500" style="width: 38%;"></div>
+</div>
+</div>
+<!-- Stat 3: Shots on Target -->
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="font-label-numeric-md text-label-numeric-md font-bold text-primary">۷</span>
+<span class="text-on-surface font-medium">شوت داخل چارچوب</span>
+<span class="font-label-numeric-md text-label-numeric-md font-bold text-secondary">۴</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest flex overflow-hidden p-0.5 gap-0.5">
+<div class="h-full rounded-full bg-primary transition-all duration-500" style="width: 63.6%;"></div>
+<div class="h-full rounded-full bg-secondary transition-all duration-500" style="width: 36.4%;"></div>
+</div>
+</div>
+<!-- Stat 4: Pass Accuracy -->
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="font-label-numeric-md text-label-numeric-md font-bold text-primary">۸۸٪</span>
+<span class="text-on-surface font-medium">دقت پاس</span>
+<span class="font-label-numeric-md text-label-numeric-md font-bold text-secondary">۸۴٪</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest flex overflow-hidden p-0.5 gap-0.5">
+<div class="h-full rounded-full bg-primary transition-all duration-500" style="width: 51.1%;"></div>
+<div class="h-full rounded-full bg-secondary transition-all duration-500" style="width: 48.9%;"></div>
+</div>
+</div>
+<!-- Stat 5: Corners -->
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="font-label-numeric-md text-label-numeric-md font-bold text-primary">۶</span>
+<span class="text-on-surface font-medium">کرنرها</span>
+<span class="font-label-numeric-md text-label-numeric-md font-bold text-secondary">۳</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-highest flex overflow-hidden p-0.5 gap-0.5">
+<div class="h-full rounded-full bg-primary transition-all duration-500" style="width: 66.6%;"></div>
+<div class="h-full rounded-full bg-secondary transition-all duration-500" style="width: 33.4%;"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Live Text Commentary (گزارش لحظه‌به‌لحظه مسابقه) -->
+<div class="flex flex-col gap-space-sm bg-surface-container-low p-space-md rounded-2xl shadow-sm">
+<div class="flex items-center justify-between mb-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-primary">feed</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">گزارش لحظه‌ای زنده</h2>
+</div>
+<div class="flex items-center gap-1.5 text-primary font-body-sm text-body-sm">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+<span>در حال پخش زنده</span>
+</div>
+</div>
+<!-- Commentary Stream Timeline -->
+<div class="relative flex flex-col gap-space-md pr-6 before:content-[''] before:absolute before:right-2 before:top-2 before:bottom-2 before:w-[2px] before:bg-surface-container-highest">
+<!-- Live Event 1: Critical Foul / Free Kick (77') -->
+<div class="relative flex flex-col gap-1 bg-surface-container p-space-sm rounded-xl">
+<span class="absolute -right-[23px] top-3 w-4 h-4 rounded-full bg-tertiary-container flex items-center justify-center shadow-md">
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container"></span>
+</span>
+<div class="flex items-center justify-between text-body-sm">
+<div class="flex items-center gap-1.5">
+<span class="font-label-numeric-md text-primary font-bold">۷۷'</span>
+<span class="px-1.5 py-0.2 rounded bg-tertiary-container/20 text-tertiary font-label-badge text-label-badge font-bold">خطای خطرناک</span>
+</div>
+<span class="text-on-surface-variant font-body-sm text-[11px]">هم‌اکنون</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+            خطای شدید فرانکی دی‌یونگ پشت محوطه جریمه روی لوکا مودریچ. داور به هافبک هلندی بارسا اخطار شفاهی می‌دهد و یک ضربه ایستگاهی در موقعیتی عالی به سود کهکشانی‌ها اعلام شد.
+          </p>
+</div>
+<!-- Live Event 2: VAR Check (72') -->
+<div class="relative flex flex-col gap-1 bg-surface-container p-space-sm rounded-xl">
+<span class="absolute -right-[23px] top-3 w-4 h-4 rounded-full bg-secondary-container flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-on-secondary text-[12px]">live_tv</span>
+</span>
+<div class="flex items-center justify-between text-body-sm">
+<div class="flex items-center gap-1.5">
+<span class="font-label-numeric-md text-primary font-bold">۷۲'</span>
+<span class="px-1.5 py-0.2 rounded bg-secondary-container/20 text-secondary font-label-badge text-label-badge font-bold">بازبینی VAR</span>
+</div>
+<span class="text-on-surface-variant font-body-sm text-[11px]">تصمیم نهایی تایید شد</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+            بررسی صحنه مشکوک به پنالتی به سود بارسلونا؛ پس از مشورت داور با اتاق ویدیوچک، خطای هند میلیتائو رد شد و دستور به ادامه بازی داده شد.
+          </p>
+</div>
+<!-- Live Event 3: GOAL (68') -->
+<div class="relative flex flex-col gap-1.5 bg-gradient-to-l from-primary/10 via-surface-container to-surface-container p-space-sm rounded-xl shadow-sm">
+<span class="absolute -right-[23px] top-3 w-4 h-4 rounded-full bg-primary flex items-center justify-center shadow-[0_0_8px_rgba(0,230,118,0.6)]">
+<span class="material-symbols-outlined text-on-primary text-[12px]" style="font-variation-settings: 'FILL' 1;">sports_soccer</span>
+</span>
+<div class="flex items-center justify-between text-body-sm">
+<div class="flex items-center gap-1.5">
+<span class="font-label-numeric-md text-primary font-black text-headline-sm">۶۸'</span>
+<span class="px-2 py-0.5 rounded-full bg-primary text-on-primary font-label-badge text-label-badge font-extrabold tracking-wide">گللل دوم برای رئال مادرید!</span>
+</div>
+<span class="text-primary font-body-sm text-[11px] font-bold">نتیجه ۲ - ۱</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface font-medium leading-relaxed">
+            ارسال تماشایی فده والورده از جناح راست و ضربه سر مهارنشدنی جود بلینگهام در تیر دوم که دور از دستان تراشتگن به کنج تور چسبید! سانتیاگو برنابئو منفجر شد!
+          </p>
+</div>
+<!-- Live Event 4: Tactical Substitution (61') -->
+<div class="relative flex flex-col gap-1 bg-surface-container p-space-sm rounded-xl">
+<span class="absolute -right-[23px] top-3 w-4 h-4 rounded-full bg-surface-bright flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-on-surface-variant text-[12px]">swap_horiz</span>
+</span>
+<div class="flex items-center justify-between text-body-sm">
+<div class="flex items-center gap-1.5">
+<span class="font-label-numeric-md text-on-surface font-bold">۶۱'</span>
+<span class="px-1.5 py-0.2 rounded bg-surface-container-highest text-on-surface-variant font-label-badge text-label-badge font-bold">تعویض دوبل بارسلونا</span>
+</div>
+</div>
+<div class="flex flex-col gap-1 text-body-sm text-on-surface-variant mt-1">
+<div class="flex items-center gap-2">
+<span class="text-primary font-bold">▲ ورود:</span>
+<span class="text-on-surface">پدری و فرمین لوپز</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="text-error font-bold">▼ خروج:</span>
+<span class="text-on-surface-variant">گاوی و کاسادو</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Action Button to Load Full Live Commentary History -->
+<button class="w-full mt-space-xs py-space-sm rounded-xl bg-surface-container hover:bg-surface-container-high text-primary font-body-md text-body-md font-bold flex items-center justify-center gap-2 transition-all active:scale-[0.98]">
+<span class="material-symbols-outlined text-[18px]">history</span>
+<span>مشاهده گزارش کامل از دقیقه اول</span>
+</button>
+</div>
+<!-- Quick Cheer / Reaction Micro-Bar -->
+<div class="flex items-center justify-between bg-surface-container p-space-sm rounded-2xl">
+<div class="flex items-center gap-2">
+<span class="text-body-sm font-body-sm text-on-surface font-medium">هوادران در حال تماشا:</span>
+<span class="font-label-numeric-md text-primary font-bold">۱۲۴,۸۹۰</span>
+</div>
+<div class="flex items-center gap-1.5">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface text-body-sm flex items-center gap-1 active:scale-90 transition-all">
+<span>🤍</span>
+<span class="font-label-numeric-md text-[13px] text-primary">۷۸K</span>
+</button>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface text-body-sm flex items-center gap-1 active:scale-90 transition-all">
+<span>💙❤️</span>
+<span class="font-label-numeric-md text-[13px] text-secondary">۶۲K</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Simple micro-interaction for sub-navigation tabs
+  document.querySelectorAll('button').forEach(btn => {
+    btn.addEventListener('click', function() {
+      // tactile feedback logic hook
+    });
+  });
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-low/95 backdrop-blur-xl shadow-[0_-4px_24px_rgba(0,0,0,0.4)]" data-active-classes="text-primary font-bold"><div class="flex items-center justify-around h-16 px-space-xs"><a class="flex flex-col items-center justify-center gap-0.5 min-w-[70px] h-12 text-on-surface-variant hover:text-on-surface transition-all active:scale-95" data-path="live-scores" href="#"><span class="material-symbols-outlined text-[22px]">sports_soccer</span><span class="font-label-caps text-label-caps text-[10px] leading-tight">نتایج زنده</span></a><a aria-current="page" class="flex flex-col items-center justify-center gap-0.5 min-w-[70px] h-12 transition-all active:scale-95 text-primary font-bold" data-path="match-center" href="#"><span class="material-symbols-outlined text-[22px]">stadium</span><span class="font-label-caps text-label-caps text-[10px] leading-tight">مسابقه زنده</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[70px] h-12 text-on-surface-variant hover:text-on-surface transition-all active:scale-95" data-path="news" href="#"><span class="material-symbols-outlined text-[22px]">feed</span><span class="font-label-caps text-label-caps text-[10px] leading-tight">اخبار</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[70px] h-12 text-on-surface-variant hover:text-on-surface transition-all active:scale-95" data-path="standings-and-stats" href="#"><span class="material-symbols-outlined text-[22px]">leaderboard</span><span class="font-label-caps text-label-caps text-[10px] leading-tight">جدول و آمار</span></a></div></nav></body></html>
